@@ -16,15 +16,15 @@
   text-align: center;
   flex-direction: column;
   align-content: center;
-  color: #ffffff;
+  color: $color-white;
 }
 .title1 {
-  font-family: "Roboto Slab", serif;
+  font-family: $font-family-first;
   font-size: 42px;
 }
 .title2 {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: $font-family;
 }
 
 .button {
@@ -34,7 +34,7 @@
   // position: relative;
   width: 45px;
   height: 45px;
-  background-color: #ffffff;
+  background-color: $color-white;
   border-radius: 22.5px;
   margin-top: 60px;
 }
@@ -47,7 +47,7 @@
 .menu {
   width: 44px;
   height: 44px;
-  background-color: blue;
+  background-color: $color-secondary;
   position: fixed;
   top: 0;
 }
