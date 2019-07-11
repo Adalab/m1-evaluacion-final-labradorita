@@ -1,0 +1,18 @@
+.section {
+  display: flex;
+  margin-right: 15px;
+  margin-left: 15px;
+  //max-width: 290px;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.section__small {
+  color: #8ccbea;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+.section__big {
+}
+.section__medium {
+}
