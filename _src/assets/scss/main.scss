@@ -1,7 +1,8 @@
+@import "core/reset";
 @import "core/variables";
+@import "layout/header";
 
 body {
   margin: 0;
-  background-color: red;
-  width: 100vh;
+  padding: 0;
 }

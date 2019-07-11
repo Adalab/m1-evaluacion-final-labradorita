@@ -2,7 +2,7 @@
 
 # Evaluación final módulo 1
 
-Diseño de una página web con una imagen de una ciudad con título principal ANONYMUS PROXY.
+Diseño de una página web con una imagen de una ciudad con título principal ANONYMOUS PROXY.
 Aplicaremos lo aprendido en el módulo 1.
 
 Partiendo de nuesto Starter Kit en node/gulp para este primer contacto con el desarrollo web, se ha realizado una página web....
