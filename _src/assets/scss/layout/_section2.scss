@@ -113,3 +113,20 @@
     }
   }
 }
+
+.arrow {
+  animation-name: animation__button;
+  animation-duration: 5s;
+  animation-iteration-count: 10;
+}
+
+@keyframes animation__button {
+  from {
+    opacity: 0;
+    transform: rotate(270deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotate (0deg);
+  }
+}
