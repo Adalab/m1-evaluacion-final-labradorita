@@ -6,7 +6,7 @@
   align-content: flex-start;
 
   &__container {
-    //max-width: 290px;
+    max-width: 290px;
     // justify-content: center;
     // align-content: flex-start;
   }
@@ -60,4 +60,8 @@
 .go__button {
   color: $color-primary;
   text-decoration: none;
+}
+
+.section__border {
+  padding-bottom: 20px;
 }

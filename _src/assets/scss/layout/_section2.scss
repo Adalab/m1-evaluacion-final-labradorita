@@ -1,0 +1,69 @@
+.section2 {
+  display: grid;
+  grid-template: 1fr;
+  grid-template-rows: 80px 150px 150px 150px 80px 80px;
+  background-color: $color-light-back;
+  justify-items: center;
+  align-items: center;
+  padding-left: 70px;
+  padding-right: 70px;
+
+  &__title-big {
+    text-align: center;
+    font-family: $font-family-first;
+    font-size: 24px;
+  }
+  &__subtitle {
+    text-align: center;
+    font-family: $font-family-first;
+    font-size: 18px;
+  }
+  &__text {
+    text-align: center;
+    font-family: $font-family;
+    font-size: 18px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+  }
+}
+
+.reasons__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  background-color: $color-primary;
+  height: 55px;
+  width: 185px;
+  border-radius: 25px;
+  border: $color-primary 2px solid;
+  color: $color-white;
+  font-family: $font-family;
+}
+
+.arrow__button {
+  display: flex;
+  margin-right: 15px;
+  margin-left: 15px;
+  color: $color-primary;
+  padding: 7px 12px;
+  width: 45px;
+  height: 45px;
+  background: $color-white;
+  border: $color-primary solid 2px;
+  border-radius: 22.5px;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+
+  transition: background-color ease 1s;
+
+  &:hover {
+    background-color: $color-secondary;
+    .go__button {
+      color: $color-white;
+    }
+  }
+}
