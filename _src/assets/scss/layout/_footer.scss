@@ -31,6 +31,7 @@
 .list__media {
   padding: 30px;
   list-style: none;
+  line-height: 2;
   @media all and (min-width: 768px) {
     padding: 0px;
     order: 1;
@@ -40,6 +41,7 @@
 .list__menu {
   list-style: none;
   order: 2;
+  line-height: 2;
   @media all and (min-width: 768px) {
     padding: 0px;
     order: 2;
@@ -51,6 +53,7 @@
 
 .heart {
   color: $color-primary;
+  line-height: 2;
 }
 .copyright {
   font-size: 14px;
