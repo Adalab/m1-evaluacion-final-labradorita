@@ -4,3 +4,5 @@
 
 Diseño de una página web con una imagen de una ciudad con título principal ANONYMOUS PROXY.
 Aplicaremos lo aprendido en el módulo 1.
+
+Rama bonus: Animación del botón del footer
