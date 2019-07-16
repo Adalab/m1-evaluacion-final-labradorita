@@ -1,6 +1,6 @@
 .footer {
-  background: $color-dark-back;
-  color: $color-white;
+  background: $color-secondary;
+  color: $color-black;
   text-align: center;
   padding: 60px 0;
   margin-top: -20px;
@@ -29,7 +29,7 @@
 .list {
 }
 .list__media {
-  padding: 30px;
+  padding: 45px;
   list-style: none;
   line-height: 2;
   @media all and (min-width: 768px) {
@@ -57,8 +57,18 @@
 }
 .copyright {
   font-size: 14px;
+  display: flex;
+  flex-direction: column;
   @media all and (min-width: 768px) {
     padding: 0px;
     order: 2;
   }
+
+  .year {
+    order: 1;
+  }
+}
+
+.comp {
+  color: $color-primary;
 }
